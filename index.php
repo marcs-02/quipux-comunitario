@@ -64,32 +64,44 @@ include_once "$ruta_raiz/config_title.php";
      
       
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-      
-        <li class="active"> <div style="position:absolute; margin-top:-15px" >
-      <a class="navbar-brand" href="#"><img src='imagenes/logo_ing2.png' width='120' height='45'></a>
-      </div>
-     
-      </li>
-     
-      <div style="position:absolute; margin-left:150px; margin-top:10px" >
-      <font color='white'><b><i>Sistema de Gestión Documental</i> </b></font>
-        <div style="position:absolute; margin-left:120px; margin-top:0px" >
-        <font color='white' size='1'><b><i>Versión Libre</i> </b></font>
+
+    <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:211px;width:100%">
+        <div data-id="1726B602-E1DD-4BCE-8F3E-689133FBEDE1" data-kind="SECTION"
+            style="width:100%;min-height:211px;left:auto;margin-top:0;margin-left:0"
+            class="Preview_componentWrapper__2i4QI">
+            <div id="Header" data-in-template="true" data-id="1726B602-E1DD-4BCE-8F3E-689133FBEDE1" data-kind="Block"
+                data-specific-kind="SECTION" data-pin="0" data-stretch="true" class="Preview_block__16Zmu">
+                <div class="StripPreview_backgroundComponent__3YmQM"
+                    style="background-color: rgb(42, 102, 161); padding-bottom: 27px; min-height: 211px;">
+                    <div class="Preview_column__1KeVx col" style="width:100%;margin:0 auto">
+                        <div class="Preview_row__3Fkye row" style="min-height:184px;width:100%">
+                            <div class="Preview_column__1KeVx col" style="width:161px;float:left">
+                                <div data-id="BA2CDFAD-4042-4ECE-89CF-3811EB2058FD" data-kind="IMAGE"
+                                    style="width:132px;min-height:139px;margin-top:16px;margin-left:29px"
+                                    class="Preview_componentWrapper__2i4QI">
+                                    <img loading="lazy" style="display:block;margin:0" src="images/logolisto.jpg"
+                                        width="132" height="139">
+                                </div>
+                            </div>
+                            <div class="Preview_column__1KeVx col" style="width:787px;float:left">
+                                <div data-id="9B90E271-A64A-43E1-92E7-89CD3660B8B5" data-kind="TEXT"
+                                    style="width:763px;min-height:152px;margin-top:32px;margin-left:24px"
+                                    class="Preview_componentWrapper__2i4QI">
+                                    <h2 style="font-weight: bold; font-family: Titillium Web; font-size: 28px;">
+                                        <a href="/"> INSTITUTO SUPERIOR TECNOLÓGICO PARTICULAR</a>
+                                    </h2>
+                                    <h2 style="font-weight: bold; font-family: Titillium Web; font-size: 36px;">
+                                        <a href="/">&nbsp; "BOLÍVAR MADERO VARGAS"</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-     
-     
-       
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-       
-        <li><a href="javascript: void(0);" onclick="irLogin(1);" style="color: none;"<span class="glyphicon glyphicon-log-in"></span><font color='white'><b>Ingresar al Sistema </b></font> </a></li>
-        
-      </ul>
     </div>
+    
   </div>
 </nav>
 
