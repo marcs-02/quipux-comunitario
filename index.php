@@ -11,7 +11,6 @@ include_once "$ruta_raiz/config_title.php";
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" href="estilos/navbar.css">
   
   <script src="jsindex/jquery.min.js"></script>
   <script src="jsindex/bootstrap.min.js"></script>
@@ -72,6 +71,11 @@ include_once "$ruta_raiz/config_title.php";
       </div>
      
       </li>
+      
+       
+        
+      </ul>
+
       <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:211px;width:100%">
     <div class="Preview_componentWrapper__2i4QI" style="width:100%; min-height:211px;">
         <div class="Preview_block__16Zmu" style="background-color: rgb(42, 102, 161); min-height: 211px;">
@@ -79,7 +83,7 @@ include_once "$ruta_raiz/config_title.php";
                 <div class="Preview_row__3Fkye row" style="min-height:184px; width:100%">
                     <div class="Preview_column__1KeVx col" style="float:left; width:161px;">
                         <div class="Preview_componentWrapper__2i4QI" style="width:132px; min-height:139px; margin:16px 0 0 29px;">
-                            <img loading="lazy" src="/____impro/1/onewebmedia/logolisto%202019.jpg" alt="Logo" style="width:132px; height:139px;">
+                            <img loading="lazy" src="/images/logolisto.jpg" alt="Logo" style="width:132px; height:139px;">
                         </div>
                     </div>
                     <div class="Preview_column__1KeVx col" style="float:left; width:787px;">
@@ -100,14 +104,15 @@ include_once "$ruta_raiz/config_title.php";
     </div>
 </div>
 
-       
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-       
-        <li><a href="javascript: void(0);" onclick="irLogin(1);" style="color: none;"<span class="glyphicon glyphicon-log-in"></span><font color='white'><b>Ingresar al Sistema </b></font> </a></li>
-        
-      </ul>
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        <a href="javascript: void(0);" onclick="irLogin(1);" style="color: none;">
+            <span class="glyphicon glyphicon-log-in"></span>
+            <font color='white'><b>Ingresar al Sistema</b></font>
+        </a>
+    </li>
+</ul>
+
     </div>
   </div>
 </nav>
