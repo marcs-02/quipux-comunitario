@@ -1,8 +1,8 @@
 <?php
-$institucionSigla="institucionSigla";
-$institucionNombre="institucionNombre";
-$banner1 = "imagenes/index/banner_fijo_index3.png";
-$banner2 = "imagenes/index/banner_fijo_index3.png";
+$institucionSigla="IBMV";
+$institucionNombre="Instituto Bolivar Madero Vargas";
+$banner1 = "images/logolisto.jpg";
+$banner2 = "images/logolisto.jpg";
 $linkBanner1 = "";
 $nombreLinkBanner1 = "";
 $linkBanner2 = "";
