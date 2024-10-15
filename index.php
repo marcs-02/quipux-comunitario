@@ -11,7 +11,7 @@
 $ruta_raiz = ".";
 
 
-include_once "$ruta_raiz/config_title.php";
+include_once "$ruta_raiz/config.title.php";
 
  ?>
 
@@ -138,6 +138,9 @@ include_once "$ruta_raiz/config_title.php";
 
 
 <div class="container">
+
+<br>
+<br>
 
 <div class="row">
 
