@@ -1,8 +1,8 @@
 <?php
 $institucionSigla="IBMV";
 $institucionNombre="Instituto Bolivar Madero Vargas";
-$banner1 = "images/logolisto.jpg";
-$banner2 = "images/logolisto.jpg";
+$banner1 = "images/logolisto2.png";
+$banner2 = "images/logolisto2.png";
 $linkBanner1 = "";
 $nombreLinkBanner1 = "";
 $linkBanner2 = "";
