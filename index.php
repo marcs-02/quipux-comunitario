@@ -54,55 +54,82 @@ include_once "$ruta_raiz/config_title.php";
                 }
             }
         </script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #2A66A1;
+            height: 211px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .banner img {
+            height: 160px;
+            width: auto;
+            margin-right: 20px;
+        }
+        .banner-text {
+            text-align: center;
+            margin-left: auto;
+            padding-right: 45px;
+        }
+        .banner h2 {
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            margin: 5px;
+        }
+        .banner h2:first-of-type {
+            font-size: 3.5rem;
+            font-weight: 500;
+        }
+        .banner h2:last-of-type {
+            font-size: 4.0rem;
+            font-weight: 600;
+        }
+        .btn-ingresar {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 15px 10px;
+            font-size: 1.8rem;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
+            transition: all 0.7s ease;
+        }
+        .btn-ingresar:hover {
+            background-color: white;
+            color: #30659a;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-
-                    <li class="active">
-                        <div style="position:absolute; margin-top:-15px">
-                            <a class="navbar-brand" href="#"><img src='imagenes/logo_ing2.png' width='120'
-                                    height='45'></a>
-                        </div>
-
-                    </li>
-
-                    <div style="position:absolute; margin-left:150px; margin-top:10px">
-                        <font color='white'><b><i>Sistema de Gestión Documental</i> </b></font>
-                        <div style="position:absolute; margin-left:120px; margin-top:0px">
-                            <font color='white' size='1'><b><i>Versión Libre</i> </b></font>
-                        </div>
-                    </div>
-
-
-
-
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li><a href="javascript: void(0);" onclick="irLogin(1);" style="color: none;" <span
-                            class="glyphicon glyphicon-log-in"></span>
-                            <font color='white'><b>Ingresar al Sistema </b></font>
-                        </a></li>
-
-                </ul>
-            </div>
+    <header class="banner">
+        <div>
+            <img src="/images/logolisto2.png" alt="Logo de la Institución">
         </div>
-    </nav>
+        <div class="banner-text">
+            <h2>INSTITUTO SUPERIOR TECNOLÓGICO PARTICULAR</h2>
+            <h2>"BOLÍVAR MADERO VARGAS"</h2>
+        </div>
+        <div>
+            <a href="javascript:void(0);" onclick="irLogin(1);" class="btn-ingresar">
+                <span class="glyphicon glyphicon-log-in"></span> Ingresar al Sistema
+            </a>
+        </div>
+    </header>
 
+    <br>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -136,7 +163,6 @@ include_once "$ruta_raiz/config_title.php";
                         </div>
                     </div>
 
-                    <!-- Left and right controls -->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -162,27 +188,19 @@ include_once "$ruta_raiz/config_title.php";
         <hr>
     </div>
 
-    <div class="container text-center">
-        <?php 
-	if ($institucionNombre == "institucionNombre" ){
-		echo "<font color='red' size='3'>Reemplace el archivo example.config_title.php por config_title.php y configure los nombres de su institución</font>";
-	} 
-	?>
-        <h3>
-            <?=$institucionNombre?>
-        </h3>
-        <br>
-
-        <hr>
-    </div>
-
-    <br>
-
     <footer class="container-fluid text-center">
         <p>
             <?=$footerText?>
         </p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        function irLogin(id) {
+            alert('Redirigiendo a la página de login...');
+        }
+    </script>
 
 </body>
 
