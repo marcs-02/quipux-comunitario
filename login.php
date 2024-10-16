@@ -16,9 +16,7 @@
 *    along with this program.  If not, see http://www.gnu.org/licenses. 
 *------------------------------------------------------------------------------
 **/
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 $ruta_raiz = ".";
 $usua_nuevo=3;
 error_reporting(0);
