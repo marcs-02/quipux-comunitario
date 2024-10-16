@@ -170,7 +170,7 @@ include_once "$ruta_raiz/config_title.php";
           <div class="carousel-caption">
 
             
-            <p><a href=<?=$linkBanner1?>><?=$nombreLinkBanner1?></a></p>
+            <p><a src=<?=$linkBanner1?>><?=$nombreLinkBanner1?></a></p>
 
           </div>      
 
@@ -184,7 +184,7 @@ include_once "$ruta_raiz/config_title.php";
           <div class="carousel-caption">
 
             
-          <p><a href=<?=$linkBanner2?>><?=$nombreLinkBanner2?></a></p>
+          <p><a src=<?=$linkBanner2?>><?=$nombreLinkBanner2?></a></p>
 
           </div>      
 
