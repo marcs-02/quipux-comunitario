@@ -1,11 +1,11 @@
 <?php
-$institucionSigla="institucionSigla";
-$institucionNombre="institucionNombre";
-$banner1 = "imagenes/index/banner_fijo_index.png";
-$banner2 = "imagenes/index/banner_fijo_index.png";
-$linkBanner1 = "";
-$nombreLinkBanner1 = "";
-$linkBanner2 = "";
-$nombreLinkBanner2 = "";
+$institucionSigla="IBMV";
+$institucionNombre="Instituto Bolivar Madero Vargas";
+$banner1 = "images/logolisto2.png";
+$banner2 = "images/logolisto2.png";
+$linkBanner1 = "imagenes/index/1.png";
+$nombreLinkBanner1 = "imagenes/index/2.png";
+$linkBanner2 = "imagenes/index/4.png";
+$nombreLinkBanner2 = "imagenes/index/3.png";
 $footerText = "footerText";
 ?>

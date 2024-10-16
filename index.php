@@ -11,11 +11,11 @@
 $ruta_raiz = ".";
 
 
-include_once "$ruta_raiz/config.title.php";
+include_once "$ruta_raiz/config_title.php";
 
  ?>
 
-  <title>.::<?=$institucionSigla?>::.</title>
+  <title><?=$institucionSigla?></title>
 
   <meta charset="utf-8">
 
